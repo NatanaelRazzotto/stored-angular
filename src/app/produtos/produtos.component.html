@@ -3,7 +3,7 @@
         <a routerLink="/produtos/{{produto.id}}" class="product-list__link">
             <img [src]="produto.imagem">
             <h2 class="product-item__name">
-                Product 01
+                {{produto?.descricao}}
             </h2>
             <p class="product-item__price">
                {{produto.preco | currency: "BRL"}}

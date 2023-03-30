@@ -9,7 +9,7 @@ import { IProdutoCarrinho } from '../produtos';
 })
 export class CarrinhoComponent implements OnInit{
   itensCarrinho:IProdutoCarrinho[] = []
-  total : string;
+  total : number = 0;
   constructor(public carrinhoService  :CarrinhoService){
     
   }

@@ -28,7 +28,4 @@ export class CarrinhoService {
       localStorage.setItem("carrinho",JSON.stringify(this.itens));
       
   }
-  compar(){
-this,csrti
-  }
 }
